@@ -1,0 +1,19 @@
+@font-face{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: local('montserrat'),
+        url('../fonts/Montserrat.woff') format('woff2'),
+        url('../fonts/Montserrat.woff2') format('woff2');
+}
+
+@font-face{
+    font-family: 'opensans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: local('OpenSans'),
+        url('../fonts/OpenSans.woff') format('woff2'),
+        url('../fonts/OpenSans.woff2') format('woff2');
+}

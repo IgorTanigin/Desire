@@ -1,0 +1,46 @@
+body {
+    box-sizing: border-box;
+    min-height: 100vh;
+    font-size: 16px;
+    line-height: 27px;
+    overflow-x: hidden;
+    min-width: 320px;
+}
+
+.container {
+    max-width: 1130px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.container-fluid{
+    max-width: 1357px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.main{
+    flex:  1 0 auto;
+}
+.footer{
+    flex: 0 0 auto;
+}
+.slick-dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    gap: 30px;
+    button{
+        background-color: #363838;
+        border-radius: 50%;
+        height: 8px;
+        width: 8px;
+        border: none;
+        padding: 0;
+        font-size: 0;
+        cursor: pointer;   
+    } 
+    li.slick-active{
+        button{
+            background-color: #FFEF35;
+        }
+    } 
+}
